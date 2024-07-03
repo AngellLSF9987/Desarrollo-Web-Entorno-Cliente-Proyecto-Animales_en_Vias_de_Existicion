@@ -75,7 +75,6 @@ header {
 .navMenu,
 .opciones,
 li {
-    width: max-content;
     display: flex;
     flex-direction: row;
     margin: 5px 45px;
@@ -86,7 +85,7 @@ li {
 }
 
 .navMenu {
-    width: max-content;
+    width: 100%;
     /* Asegura que el menú ocupe todo el ancho disponible */
     justify-content: center;
     /* Centra los elementos del menú */
@@ -118,7 +117,7 @@ li a {
 
 .h1 {
     text-shadow: 2px 2px 10px black;
-    margin: 80px 10px 5px 0px;
+    margin: 20px auto;
     font-size: 1.75rem;
     font-weight: 600;
     line-height: 1.5;
@@ -129,6 +128,7 @@ li a {
 
 .h2 {
     margin-bottom: 2rem;
+    padding-right: 35%;
     font-size: 1.5rem;
     color: green;
     text-transform: uppercase;
@@ -137,14 +137,19 @@ li a {
 }
 
 .h3 {
-    margin: 150px 10px 45px 30px;
+    margin: 25px auto;
     font-size: 1.25rem;
     color: green;
     text-transform: uppercase;
     text-shadow: 2px 20px 10px white;
 }
 
+.h3 img {
+    margin-top: 55px;
+}
+
 .h4 {
+    padding-right: 35%;
     margin-top: 25px;
     font-size: 1.25rem;
     color: green;
@@ -177,7 +182,7 @@ aside li a {
 main {
     display: flex;
     flex-direction: row;
-    width: max-content;
+    width: ma;
     margin-top: 35px;
 }
 
@@ -199,11 +204,11 @@ main {
 }
 
 .art article p{
-    text-align: center;
+    text-align: justify;
 }
 
 .art .img {
-    margin-left: 100px;
+    margin-left: 250px;
 }
 
 /* || Footer layout */
